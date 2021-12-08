@@ -1,0 +1,124 @@
+body{    
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+nav > ul{
+    margin:0;
+    padding:0;
+}
+nav li{
+    list-style-type: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav>ul{
+    display: flex;
+    
+   
+}
+nav>ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav>ul>li{
+    position: relative;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding:20px 30px;
+    color: white;
+}
+nav:hover a{
+    padding:15px 30px 20px 30px;
+}
+nav >ul>li>a{
+    padding:20px 30px;
+    color: white;
+}
+
+
+.submenu{
+    display: none;
+}
+
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top:100%;
+    left:0;
+    padding:0;
+    z-index:1000;
+}
+.submenu li{
+    
+    border-bottom: 1px solid purple;
+    border-collapse: collapse;
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size:13px;
+    color: white;
+    width: 100%;    
+}
+.about:hover{
+    border-top: 3px solid orange;
+    background-color:darkgoldenrod ;
+}
+.accueil:hover{
+    border-top: 3px solid orange;
+    background-color:darkgoldenrod ; 
+}
+.téléchargement:hover{
+    border-top: 3px solid orange;
+    background-color: darkgoldenrod ;
+}
+.group:hover{
+    border-top: 3px solid orange;
+    background-color: darkgoldenrod;
+}
+.contact:hover{
+    border-top: 3px solid orange;
+    background-color: darkgoldenrod; 
+}
+.submenu{
+    background-color: rgba(184,134,11,0.80);
+}
+.submenu li:hover a{
+    color:#EEE;
+    font-weight: bold ;
+}
+/*container*/
+h1 .project-name{
+    display: flex;
+    justify-content: center;
+}
+.presentation img{
+    
+    justify-content: center;
+    margin-left: 15%;
+    padding: 15px 20px;
+    height: 75%;
+    width: 70%;
+}
+.presentation>div {
+   margin-left: 15%;
+    justify-content: center;
+    width: 60%;
+    padding: 20px 30px;
+    
+}
+nav.sticky{
+    padding: 5px 40px;
+}
+h1 .advance{
+    padding:20px 30px;
+    border-bottom: 1px solid ;
+}
