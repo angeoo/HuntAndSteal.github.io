@@ -1,6 +1,13 @@
 body{    
     margin: 0;
     padding: 0;
+    
+}
+body h1 {
+    font-weight: bold;
+    border: 2px solid black;  
+    display: flex;
+    justify-content: center;
 }
 nav{
     width: 100%;
@@ -96,6 +103,9 @@ nav li:hover .submenu{
     font-weight: bold ;
 }
 /*container*/
+.container{
+    padding: 5%;
+}
 h1 .project-name{
     display: flex;
     justify-content: center;
@@ -121,4 +131,7 @@ nav.sticky{
 h1 .advance{
     padding:20px 30px;
     border-bottom: 1px solid ;
+}
+.container > ul>li>ul>li{
+    list-style-type: none;
 }

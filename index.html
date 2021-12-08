@@ -29,12 +29,13 @@
     <div class="container">
         <h1>
             <div class="project-name">Hunt and Steal
-            </div>
+            </div>            
         </h1>
+        <hr>
         <div class="presentation">
             <img src="images/game-phase-1.png">
             <div class="desciption">
-                (1ere phase de jeu)Le jeu se déroule dans une cité inspirée du genre steampunk. Les
+                Le jeu se déroule dans une cité inspirée du genre steampunk. Les
                 joueurs, des pirates des airs, débarquent d’un bateau flottant et
                 atterrissent dans une cité pour collecter des trésors et du mana
                 pour leurs armes. Mais du fait de leur félonie, ils ne pourront
@@ -45,6 +46,13 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function (){
+            var nav=document.querySelector("nav");
+            nav.classList.toggle("sticky",window.scrollY>0)
+
+        })
+    </script>
     
 </body>
 </html>
