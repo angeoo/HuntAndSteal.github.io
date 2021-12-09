@@ -135,3 +135,44 @@ h1 .advance{
 .container > ul>li>ul>li{
     list-style-type: none;
 }
+.container a{
+    text-decoration: none;
+}
+.member button{
+    
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    outline:none;
+    border: none;
+    transition: 0.3s;
+}
+.member button a{
+    text-decoration: none;
+    color: black;
+}
+.member button:hover{
+    color: gray;
+}
+.librairie{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    cursor:pointer;
+    margin: 100px auto;
+    border: 2px solid darkgoldenrod;
+}
+thead{
+    background-color: darkgoldenrod;
+    color: black;
+    text-align: left;
+}
+
+th,td{
+    padding:15px 20px;
+}
+
+tbody tr,td,th {
+    border:1px solid black
+}
